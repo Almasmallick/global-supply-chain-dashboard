@@ -1,0 +1,29 @@
+# Node dependencies & build output
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Environment & Secrets (Crucial: Never commit credentials)
+.env
+.env.*
+!.env.example
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# NOTE: public/data/*.json and data/raw/manual/ MUST BE COMMITTED
+# This ensures static hosting on Vercel runs without requiring Python at build time.

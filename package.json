@@ -1,0 +1,19 @@
+{
+  "name": "global-supply-chain-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "data:build": "py scripts/build_data.py",
+    "data:validate": "py scripts/validate.py"
+  },
+  "dependencies": {
+    "plotly.js-basic-dist-min": "^2.35.2"
+  },
+  "devDependencies": {
+    "vite": "^6.0.7"
+  }
+}
